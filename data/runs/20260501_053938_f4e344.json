@@ -3605,6 +3605,1374 @@
         "Candles Held": "\u2014",
         "Internal Monologue": "Scanning for micro-opportunities..."
       }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:58:57.064391+00:00",
+      "action": "HOLD",
+      "price": 77168.33,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77161.71",
+        "EMA(8)": "77155.64",
+        "EMA Spread": "+0.0079% \u2191",
+        "RSI(7)": "65.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:02.805875+00:00",
+      "action": "HOLD",
+      "price": 77164.46,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77162.12",
+        "EMA(8)": "77156.93",
+        "EMA Spread": "+0.0067% \u2191",
+        "RSI(7)": "63.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:08.582614+00:00",
+      "action": "HOLD",
+      "price": 77155.05,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77157.41",
+        "EMA(8)": "77154.84",
+        "EMA Spread": "+0.0033% \u2191",
+        "RSI(7)": "54.8",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:14.308493+00:00",
+      "action": "HOLD",
+      "price": 77155.05,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77157.41",
+        "EMA(8)": "77154.84",
+        "EMA Spread": "+0.0033% \u2191",
+        "RSI(7)": "54.8",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:20.041553+00:00",
+      "action": "HOLD",
+      "price": 77153.72,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77156.75",
+        "EMA(8)": "77154.55",
+        "EMA Spread": "+0.0029% \u2191",
+        "RSI(7)": "53.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:25.767473+00:00",
+      "action": "HOLD",
+      "price": 77146.27,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.02",
+        "EMA(8)": "77152.89",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "48.4",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:31.936229+00:00",
+      "action": "HOLD",
+      "price": 77146.26,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.02",
+        "EMA(8)": "77152.89",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "48.4",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:37.666031+00:00",
+      "action": "HOLD",
+      "price": 77146.27,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.02",
+        "EMA(8)": "77152.89",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "48.4",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:44.256857+00:00",
+      "action": "HOLD",
+      "price": 77146.27,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.02",
+        "EMA(8)": "77152.89",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "48.4",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:49.982108+00:00",
+      "action": "HOLD",
+      "price": 77151.67,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.02",
+        "EMA(8)": "77152.89",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "48.4",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:59:55.705573+00:00",
+      "action": "HOLD",
+      "price": 77151.67,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77155.72",
+        "EMA(8)": "77154.09",
+        "EMA Spread": "+0.0021% \u2191",
+        "RSI(7)": "52.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:01.451900+00:00",
+      "action": "HOLD",
+      "price": 77151.67,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77155.72",
+        "EMA(8)": "77154.09",
+        "EMA Spread": "+0.0021% \u2191",
+        "RSI(7)": "52.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:07.185522+00:00",
+      "action": "HOLD",
+      "price": 77169.83,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77153.70",
+        "EMA(8)": "77153.55",
+        "EMA Spread": "+0.0002% \u2191",
+        "RSI(7)": "52.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:12.903045+00:00",
+      "action": "HOLD",
+      "price": 77173.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77164.63",
+        "EMA(8)": "77158.41",
+        "EMA Spread": "+0.0081% \u2191",
+        "RSI(7)": "64.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:18.636612+00:00",
+      "action": "HOLD",
+      "price": 77173.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77164.63",
+        "EMA(8)": "77158.41",
+        "EMA Spread": "+0.0081% \u2191",
+        "RSI(7)": "64.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:24.368497+00:00",
+      "action": "HOLD",
+      "price": 77173.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77164.63",
+        "EMA(8)": "77158.41",
+        "EMA Spread": "+0.0081% \u2191",
+        "RSI(7)": "64.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:30.568869+00:00",
+      "action": "HOLD",
+      "price": 77173.53,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77164.63",
+        "EMA(8)": "77158.41",
+        "EMA Spread": "+0.0081% \u2191",
+        "RSI(7)": "64.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:36.777857+00:00",
+      "action": "HOLD",
+      "price": 77173.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77164.63",
+        "EMA(8)": "77158.41",
+        "EMA Spread": "+0.0081% \u2191",
+        "RSI(7)": "64.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:42.533563+00:00",
+      "action": "HOLD",
+      "price": 77172.21,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77163.97",
+        "EMA(8)": "77158.12",
+        "EMA Spread": "+0.0076% \u2191",
+        "RSI(7)": "64.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:48.312059+00:00",
+      "action": "HOLD",
+      "price": 77172.21,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77163.97",
+        "EMA(8)": "77158.12",
+        "EMA Spread": "+0.0076% \u2191",
+        "RSI(7)": "64.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:00:54.126959+00:00",
+      "action": "HOLD",
+      "price": 77172.21,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77163.97",
+        "EMA(8)": "77158.12",
+        "EMA Spread": "+0.0076% \u2191",
+        "RSI(7)": "64.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:00.369359+00:00",
+      "action": "HOLD",
+      "price": 77164.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.86",
+        "EMA(8)": "77156.29",
+        "EMA Spread": "+0.0046% \u2191",
+        "RSI(7)": "60.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:06.279278+00:00",
+      "action": "HOLD",
+      "price": 77164.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77161.94",
+        "EMA(8)": "77158.01",
+        "EMA Spread": "+0.0051% \u2191",
+        "RSI(7)": "60.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:12.026653+00:00",
+      "action": "HOLD",
+      "price": 77164.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77161.94",
+        "EMA(8)": "77158.01",
+        "EMA Spread": "+0.0051% \u2191",
+        "RSI(7)": "60.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:18.366973+00:00",
+      "action": "HOLD",
+      "price": 77164.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77161.93",
+        "EMA(8)": "77158.01",
+        "EMA Spread": "+0.0051% \u2191",
+        "RSI(7)": "60.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:24.163879+00:00",
+      "action": "HOLD",
+      "price": 77162.68,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77161.27",
+        "EMA(8)": "77157.71",
+        "EMA Spread": "+0.0046% \u2191",
+        "RSI(7)": "59.0",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:29.941492+00:00",
+      "action": "HOLD",
+      "price": 77160.81,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.34",
+        "EMA(8)": "77157.30",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:35.759378+00:00",
+      "action": "HOLD",
+      "price": 77160.81,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.34",
+        "EMA(8)": "77157.30",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:41.534648+00:00",
+      "action": "HOLD",
+      "price": 77160.81,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.34",
+        "EMA(8)": "77157.30",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:47.347963+00:00",
+      "action": "HOLD",
+      "price": 77160.81,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.34",
+        "EMA(8)": "77157.30",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:53.561519+00:00",
+      "action": "HOLD",
+      "price": 77160.8,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.33",
+        "EMA(8)": "77157.29",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:01:59.320331+00:00",
+      "action": "HOLD",
+      "price": 77160.8,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.33",
+        "EMA(8)": "77157.29",
+        "EMA Spread": "+0.0039% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:05.149871+00:00",
+      "action": "HOLD",
+      "price": 77160.8,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.57",
+        "EMA(8)": "77158.07",
+        "EMA Spread": "+0.0032% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:10.926211+00:00",
+      "action": "HOLD",
+      "price": 77160.8,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.57",
+        "EMA(8)": "77158.08",
+        "EMA Spread": "+0.0032% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:16.751349+00:00",
+      "action": "HOLD",
+      "price": 77167.23,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77160.83",
+        "EMA(8)": "77158.19",
+        "EMA Spread": "+0.0034% \u2191",
+        "RSI(7)": "57.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:22.971621+00:00",
+      "action": "HOLD",
+      "price": 77167.23,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77163.78",
+        "EMA(8)": "77159.50",
+        "EMA Spread": "+0.0055% \u2191",
+        "RSI(7)": "61.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:28.788766+00:00",
+      "action": "HOLD",
+      "price": 77167.75,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77163.78",
+        "EMA(8)": "77159.50",
+        "EMA Spread": "+0.0055% \u2191",
+        "RSI(7)": "61.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:34.612489+00:00",
+      "action": "HOLD",
+      "price": 77173.53,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77166.93",
+        "EMA(8)": "77160.90",
+        "EMA Spread": "+0.0078% \u2191",
+        "RSI(7)": "65.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:40.357008+00:00",
+      "action": "HOLD",
+      "price": 77173.53,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77166.93",
+        "EMA(8)": "77160.90",
+        "EMA Spread": "+0.0078% \u2191",
+        "RSI(7)": "65.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:46.082460+00:00",
+      "action": "HOLD",
+      "price": 77157.42,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77166.94",
+        "EMA(8)": "77160.90",
+        "EMA Spread": "+0.0078% \u2191",
+        "RSI(7)": "65.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:52.123042+00:00",
+      "action": "HOLD",
+      "price": 77156.37,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77158.35",
+        "EMA(8)": "77157.09",
+        "EMA Spread": "+0.0016% \u2191",
+        "RSI(7)": "53.1",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:02:57.852897+00:00",
+      "action": "HOLD",
+      "price": 77156.37,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77158.35",
+        "EMA(8)": "77157.09",
+        "EMA Spread": "+0.0016% \u2191",
+        "RSI(7)": "53.1",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:03.584473+00:00",
+      "action": "HOLD",
+      "price": 77156.89,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77157.36",
+        "EMA(8)": "77156.93",
+        "EMA Spread": "+0.0006% \u2191",
+        "RSI(7)": "53.1",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:09.332534+00:00",
+      "action": "HOLD",
+      "price": 77160.96,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77157.62",
+        "EMA(8)": "77157.04",
+        "EMA Spread": "+0.0007% \u2191",
+        "RSI(7)": "53.6",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:15.067394+00:00",
+      "action": "HOLD",
+      "price": 77160.96,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.66",
+        "EMA(8)": "77157.95",
+        "EMA Spread": "+0.0022% \u2191",
+        "RSI(7)": "56.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:20.793534+00:00",
+      "action": "HOLD",
+      "price": 77160.95,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.65",
+        "EMA(8)": "77157.95",
+        "EMA Spread": "+0.0022% \u2191",
+        "RSI(7)": "56.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:26.528038+00:00",
+      "action": "HOLD",
+      "price": 77160.95,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.65",
+        "EMA(8)": "77157.95",
+        "EMA Spread": "+0.0022% \u2191",
+        "RSI(7)": "56.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:32.257456+00:00",
+      "action": "HOLD",
+      "price": 77160.95,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.65",
+        "EMA(8)": "77157.95",
+        "EMA Spread": "+0.0022% \u2191",
+        "RSI(7)": "56.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:37.969664+00:00",
+      "action": "HOLD",
+      "price": 77146.26,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77159.65",
+        "EMA(8)": "77157.95",
+        "EMA Spread": "+0.0022% \u2191",
+        "RSI(7)": "56.9",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:43.699181+00:00",
+      "action": "HOLD",
+      "price": 77146.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77152.18",
+        "EMA(8)": "77154.62",
+        "EMA Spread": "-0.0032% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:49.434615+00:00",
+      "action": "HOLD",
+      "price": 77146.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77152.18",
+        "EMA(8)": "77154.62",
+        "EMA Spread": "-0.0032% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:03:55.158658+00:00",
+      "action": "HOLD",
+      "price": 77146.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77152.18",
+        "EMA(8)": "77154.62",
+        "EMA Spread": "-0.0032% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:00.903242+00:00",
+      "action": "HOLD",
+      "price": 77146.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77152.18",
+        "EMA(8)": "77154.62",
+        "EMA Spread": "-0.0032% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:06.635564+00:00",
+      "action": "HOLD",
+      "price": 77146.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:12.786184+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:18.936404+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:24.668505+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:30.398527+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:36.133868+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:41.866874+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:47.597707+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:53.316953+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:04:59.032085+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.09",
+        "EMA(8)": "77152.71",
+        "EMA Spread": "-0.0047% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:04.746992+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77147.55",
+        "EMA(8)": "77151.22",
+        "EMA Spread": "-0.0048% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:10.469992+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77147.55",
+        "EMA(8)": "77151.22",
+        "EMA Spread": "-0.0048% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:16.186677+00:00",
+      "action": "HOLD",
+      "price": 77146.01,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77147.55",
+        "EMA(8)": "77151.22",
+        "EMA Spread": "-0.0048% \u2193",
+        "RSI(7)": "44.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:21.908744+00:00",
+      "action": "HOLD",
+      "price": 77142.53,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.82",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:27.622514+00:00",
+      "action": "HOLD",
+      "price": 77142.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.82",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:33.344495+00:00",
+      "action": "HOLD",
+      "price": 77142.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.82",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:39.070459+00:00",
+      "action": "HOLD",
+      "price": 77142.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.82",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:44.806236+00:00",
+      "action": "HOLD",
+      "price": 77142.54,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.82",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:50.523661+00:00",
+      "action": "HOLD",
+      "price": 77142.53,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77145.81",
+        "EMA(8)": "77150.45",
+        "EMA Spread": "-0.0060% \u2193",
+        "RSI(7)": "41.2",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:05:56.238283+00:00",
+      "action": "HOLD",
+      "price": 77149.71,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.40",
+        "EMA(8)": "77152.04",
+        "EMA Spread": "-0.0034% \u2193",
+        "RSI(7)": "48.5",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:06:01.960677+00:00",
+      "action": "HOLD",
+      "price": 77149.71,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.40",
+        "EMA(8)": "77152.04",
+        "EMA Spread": "-0.0034% \u2193",
+        "RSI(7)": "48.5",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:06:07.701088+00:00",
+      "action": "HOLD",
+      "price": 77149.71,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.56",
+        "EMA(8)": "77151.52",
+        "EMA Spread": "-0.0026% \u2193",
+        "RSI(7)": "48.5",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T06:06:13.419773+00:00",
+      "action": "HOLD",
+      "price": 77149.72,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9814,
+      "metrics": {
+        "EMA(3)": "77149.56",
+        "EMA(8)": "77151.52",
+        "EMA Spread": "-0.0026% \u2193",
+        "RSI(7)": "48.5",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
     }
   ],
   "trades": [
@@ -3645,13 +5013,13 @@
     "run_id": "20260501_053938_f4e344",
     "brain": "Scalper Brain (Momentum Micro)",
     "start_time": "2026-05-01T05:39:38.994807+00:00",
-    "end_time": "2026-05-01T05:58:51.329313+00:00",
+    "end_time": "2026-05-01T06:06:13.419810+00:00",
     "total_trades": 1,
     "wins": 0,
     "losses": 1,
     "win_rate": 0.0,
     "total_net_pnl": -0.0186,
     "avg_hold_seconds": 59.0,
-    "total_events": 200
+    "total_events": 276
   }
 }
