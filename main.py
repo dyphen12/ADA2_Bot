@@ -16,6 +16,7 @@ from strategies.scalper_brain import ScalperBrain
 from strategies.rsi_scalper import RSIScalper
 from strategies.transformer_brain import TransformerBrain
 from strategies.tf_brain import TFBrain
+from strategies.hybrid_transformer_brain import HybridTransformerBrain
 
 # Configure Logging
 logging.basicConfig(
@@ -35,6 +36,7 @@ BRAIN_REGISTRY = {
     "rsi": RSIScalper(),
     "transformer": TransformerBrain(),
     "tf": TFBrain(),
+    "hybrid": HybridTransformerBrain(),
 }
 
 # Determine which brain to start with
