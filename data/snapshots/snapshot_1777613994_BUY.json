@@ -1,0 +1,13 @@
+{
+    "time": 1777613994,
+    "side": "BUY",
+    "price": 77101.28,
+    "metrics": {
+        "EMA(3)": "77089.59",
+        "EMA(8)": "77088.07",
+        "EMA Spread": "+0.0020% \u2191",
+        "RSI(7)": "57.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "ENTRY: EMA micro-cross detected (bullish)"
+    }
+}

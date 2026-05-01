@@ -1,0 +1,88 @@
+{
+  "run_id": "20260501_051426_4a8c39",
+  "brain": "Scalper Brain (Momentum Micro)",
+  "brain_profile": {
+    "tick_interval": 5,
+    "stop_loss_pct": 0.0015,
+    "take_profit_pct": 0.0025,
+    "max_hold_candles": 10
+  },
+  "start_time": "2026-05-01T05:14:26.814010+00:00",
+  "symbol": "BTC/USDT",
+  "starting_capital": 100.0,
+  "events": [
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:14:26.814946+00:00",
+      "action": "HOLD",
+      "price": 77000.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 100.0,
+      "metrics": {
+        "EMA(3)": "77001.1",
+        "Internal Monologue": "Scanning..."
+      }
+    },
+    {
+      "type": "BUY",
+      "ts": "2026-05-01T05:14:26.815520+00:00",
+      "price": 77000.0,
+      "amount": 0.00013,
+      "trigger": "brain",
+      "metrics": {
+        "EMA(3)": "77002.0",
+        "Internal Monologue": "EMA micro-cross!"
+      }
+    },
+    {
+      "type": "SELL",
+      "ts": "2026-05-01T05:14:27.816572+00:00",
+      "price": 77200.0,
+      "net_profit": 0.0154,
+      "trigger": "take_profit",
+      "metrics": {
+        "Internal Monologue": "Exit"
+      }
+    }
+  ],
+  "trades": [
+    {
+      "trade_id": 1,
+      "brain": "Scalper Brain (Momentum Micro)",
+      "symbol": "BTC/USDT",
+      "entry_ts": "2026-05-01T05:14:26.815539+00:00",
+      "entry_price": 77000.0,
+      "amount": 0.00013,
+      "entry_signal": "brain",
+      "entry_metrics": {
+        "EMA(3)": "77002.0",
+        "Internal Monologue": "EMA micro-cross!"
+      },
+      "exit_ts": "2026-05-01T05:14:27.816607+00:00",
+      "exit_price": 77200.0,
+      "exit_signal": "take_profit",
+      "exit_metrics": {
+        "Internal Monologue": "Exit"
+      },
+      "hold_seconds": 1,
+      "gross_return": 0.026,
+      "net_profit": 0.0154,
+      "outcome": "WIN"
+    }
+  ],
+  "summary": {
+    "run_id": "20260501_051426_4a8c39",
+    "brain": "Scalper Brain (Momentum Micro)",
+    "start_time": "2026-05-01T05:14:26.814010+00:00",
+    "end_time": "2026-05-01T05:14:27.816649+00:00",
+    "total_trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_net_pnl": 0.0154,
+    "avg_hold_seconds": 1.0,
+    "total_events": 3
+  }
+}

@@ -1,0 +1,9 @@
+ccxt
+pandas
+pandas-ta
+python-dotenv
+fastapi
+uvicorn
+tensorflow
+scikit-learn
+joblib

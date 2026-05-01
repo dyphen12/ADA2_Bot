@@ -1,0 +1,120 @@
+{
+  "run_id": "20260501_051451_4c8136",
+  "brain": "Scalper Brain (Momentum Micro)",
+  "brain_profile": {
+    "tick_interval": 5,
+    "stop_loss_pct": 0.0015,
+    "take_profit_pct": 0.0025,
+    "max_hold_candles": 10,
+    "circuit_breaker_pct": 0.05
+  },
+  "start_time": "2026-05-01T05:14:51.605972+00:00",
+  "symbol": "BTC/USDT",
+  "starting_capital": 99.93005231835158,
+  "events": [
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:14:55.716487+00:00",
+      "action": "HOLD",
+      "price": 77143.12,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9301,
+      "metrics": {
+        "EMA(3)": "77150.23",
+        "EMA(8)": "77147.87",
+        "EMA Spread": "+0.0031% \u2191",
+        "RSI(7)": "54.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:15:01.865618+00:00",
+      "action": "HOLD",
+      "price": 77141.79,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9301,
+      "metrics": {
+        "EMA(3)": "77150.23",
+        "EMA(8)": "77147.87",
+        "EMA Spread": "+0.0031% \u2191",
+        "RSI(7)": "54.3",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:15:07.589557+00:00",
+      "action": "HOLD",
+      "price": 77140.26,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9301,
+      "metrics": {
+        "EMA(3)": "77144.91",
+        "EMA(8)": "77145.95",
+        "EMA Spread": "-0.0013% \u2193",
+        "RSI(7)": "52.6",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:15:13.310058+00:00",
+      "action": "HOLD",
+      "price": 77140.26,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9301,
+      "metrics": {
+        "EMA(3)": "77144.92",
+        "EMA(8)": "77145.95",
+        "EMA Spread": "-0.0013% \u2193",
+        "RSI(7)": "52.7",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:15:19.024506+00:00",
+      "action": "HOLD",
+      "price": 77140.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 99.9301,
+      "metrics": {
+        "EMA(3)": "77144.78",
+        "EMA(8)": "77145.89",
+        "EMA Spread": "-0.0014% \u2193",
+        "RSI(7)": "52.5",
+        "Candles Held": "\u2014",
+        "Internal Monologue": "Scanning for micro-opportunities..."
+      }
+    }
+  ],
+  "trades": [],
+  "summary": {
+    "run_id": "20260501_051451_4c8136",
+    "brain": "Scalper Brain (Momentum Micro)",
+    "start_time": "2026-05-01T05:14:51.605972+00:00",
+    "end_time": "2026-05-01T05:15:19.024535+00:00",
+    "total_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "total_net_pnl": 0,
+    "avg_hold_seconds": 0.0,
+    "total_events": 5
+  }
+}

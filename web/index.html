@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADA 2 Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- TradingView Lightweight Charts -->
+    <script src="https://unpkg.com/lightweight-charts@3.8.0/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <main class="dashboard-container">
+        <header class="glass-panel">
+            <div class="branding">
+                <h1>ADA <span class="version">2.0</span></h1>
+                <p class="subtitle">Autonomous Trading System</p>
+            </div>
+            <div class="status-indicator">
+                <div class="pulse-ring" id="status-ring"></div>
+                <span id="status-text">Connecting...</span>
+                <span style="color: var(--glass-border);">|</span>
+                <span id="testnet-balance" style="color: var(--text-dim); font-size: 0.9rem; font-weight: 600;">Testnet Pool: --</span>
+            </div>
+        </header>
+
+        <section class="grid-content">
+            <div class="glass-panel stat-card brain-card">
+                <h3>Brain / Strategy</h3>
+                <h2 id="brain-text">--</h2>
+                <div class="brain-selector" style="margin-top: 0.8rem;">
+                    <select id="brain-select" style="
+                        background: rgba(255,255,255,0.06);
+                        border: 1px solid var(--glass-border);
+                        color: var(--text-main);
+                        padding: 0.4rem 0.6rem;
+                        border-radius: 8px;
+                        font-family: 'Cormorant Garamond', serif;
+                        font-size: 0.95rem;
+                        cursor: pointer;
+                        width: 100%;
+                    ">
+                        <option value="" disabled>Switch Brain...</option>
+                    </select>
+                </div>
+                <div id="brain-profile-info" style="margin-top: 0.6rem; font-size: 0.75rem; color: var(--text-dim); line-height: 1.5;"></div>
+            </div>
+            
+            <div class="glass-panel stat-card">
+                <h3>Target Symbol</h3>
+                <h2 id="symbol-text">--</h2>
+            </div>
+
+            <div class="glass-panel stat-card">
+                <h3>Current Price</h3>
+                <h2 id="price-text" class="glow-text">--</h2>
+            </div>
+
+            <div class="glass-panel thesis-card" style="grid-column: span 3;">
+                <div class="thesis-header">
+                    <h3>Experiment Thesis: Can N$ generate Daily Target?</h3>
+                    <div class="thesis-stats">
+                        <span id="win-rate" class="badge">Win Rate: --%</span>
+                        <span id="total-trades" class="badge neutral">Trades: --</span>
+                        <button id="reset-btn" class="badge loss" style="cursor: pointer; border: 1px solid rgba(255, 51, 102, 0.5); background: rgba(255, 51, 102, 0.1);">Reset</button>
+                    </div>
+                </div>
+                
+                <div class="thesis-body">
+                    <div class="thesis-col" style="align-items: center;">
+                        <span class="thesis-label">Available Capital</span>
+                        <div style="display: flex; align-items: baseline; gap: 0.4rem; justify-content: center;">
+                            <h1 id="working-capital" class="glow-text">--</h1>
+                            <span style="color: var(--text-dim); font-size: 1.1rem; font-weight: 400;">/</span>
+                            <span id="initial-capital" style="color: var(--text-dim); font-size: 1.3rem; font-weight: 600;">--</span>
+                        </div>
+                        <span id="deployed-capital-label" style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.2rem; display: none;">● <span id="deployed-capital">$0.00</span> deployed in trade</span>
+                    </div>
+                    
+                    <div class="thesis-divider"></div>
+                    
+                    <div class="thesis-col">
+                        <span class="thesis-label">Claimable Vault (Earnings)</span>
+                        <h1 id="claimable-vault" class="glow-text profit">--</h1>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-labels">
+                        <span>Daily Target Progress</span>
+                        <span id="target-text">-- / --</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="progress-bar-fill" class="progress-bar-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-panel" style="grid-column: span 3; padding: 1.5rem;">
+                <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">Market Matrix & ADA Executions</h3>
+                <div id="chart-container" style="width: 100%; height: 400px; position: relative;">
+                    <!-- Lightweight Chart will be injected here -->
+                </div>
+            </div>
+
+            <div class="glass-panel diagnostics-card" style="grid-column: span 3;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--accent-cyan);">ADA Diagnostics Array</h3>
+                    <div id="trade-stats" style="display: flex; gap: 0.8rem; font-size: 0.8rem;">
+                        <span class="badge neutral" id="stat-trades">Trades: 0</span>
+                        <span class="badge" id="stat-winrate" style="background: rgba(0,255,136,0.1); color: var(--success);">WR: 0%</span>
+                        <span class="badge neutral" id="stat-avghold">Avg Hold: 0</span>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+                    <!-- Dynamic Indicators -->
+                    <div id="metrics-panel" style="flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 1rem; border-right: 1px solid var(--glass-border); padding-right: 1rem;">
+                        <!-- Metrics will be dynamically rendered -->
+                    </div>
+                    <!-- Internal Monologue -->
+                    <div style="flex: 2; min-width: 300px;">
+                        <span class="metric-label" style="display:block; margin-bottom: 0.5rem;">Internal Monologue</span>
+                        <div id="metric-thought" style="font-style: italic; color: var(--text-main); font-size: 1.1rem; line-height: 1.5; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 12px; border-left: 3px solid var(--accent-purple);">
+                            Waiting for market data...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-panel action-card">
+                <h3>Latest Action</h3>
+                <div id="action-badge" class="badge">--</div>
+            </div>
+
+            <div class="glass-panel position-card">
+                <div class="position-header">
+                    <h3>Active Position</h3>
+                    <span id="position-type" class="badge neutral">None</span>
+                </div>
+                <div class="position-details">
+                    <div class="detail-group">
+                        <label>Entry Price</label>
+                        <span id="entry-price">--</span>
+                    </div>
+                    <div class="detail-group">
+                        <label>P/L (%)</label>
+                        <span id="profit-loss" class="neutral">--</span>
+                    </div>
+                </div>
+                <div class="position-details" style="margin-top: 1rem;">
+                    <div class="detail-group">
+                        <label>Trade Size</label>
+                        <span id="position-size">--</span>
+                    </div>
+                    <div class="detail-group">
+                        <label>P/L (USD)</label>
+                        <span id="profit-loss-usd" class="neutral">--</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trade History Log -->
+            <div class="glass-panel" style="grid-column: span 3; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem;">
+                    <div>
+                        <h3 style="color: var(--accent-cyan);">Trade History — Current Run</h3>
+                        <span id="run-id-label" style="font-size: 0.75rem; color: var(--text-dim); font-family: monospace;">Run ID: --</span>
+                    </div>
+                    <div style="display: flex; gap: 0.8rem; align-items: center;">
+                        <span id="run-summary-pnl" class="badge neutral" style="font-size: 0.8rem;">Total P/L: --</span>
+                        <span id="run-summary-trades" class="badge neutral" style="font-size: 0.8rem;">-- trades</span>
+                    </div>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table id="trade-history-table" style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+                        <thead>
+                            <tr style="color: var(--text-dim); text-align: left; border-bottom: 1px solid var(--glass-border);">
+                                <th style="padding: 0.5rem 0.8rem;">#</th>
+                                <th style="padding: 0.5rem 0.8rem;">Outcome</th>
+                                <th style="padding: 0.5rem 0.8rem;">Entry</th>
+                                <th style="padding: 0.5rem 0.8rem;">Exit</th>
+                                <th style="padding: 0.5rem 0.8rem;">Net P/L</th>
+                                <th style="padding: 0.5rem 0.8rem;">Hold</th>
+                                <th style="padding: 0.5rem 0.8rem;">Exit Via</th>
+                                <th style="padding: 0.5rem 0.8rem;">Entry Signal</th>
+                                <th style="padding: 0.5rem 0.8rem;">Brain State</th>
+                            </tr>
+                        </thead>
+                        <tbody id="trade-history-body">
+                            <tr><td colspan="9" style="padding: 1.5rem; text-align: center; color: var(--text-dim);">Awaiting first trade...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

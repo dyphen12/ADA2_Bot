@@ -1,0 +1,133 @@
+{
+  "run_id": "20260501_053216_7ed212",
+  "brain": "Scalper Brain",
+  "brain_profile": {
+    "tick_interval": 5
+  },
+  "start_time": "2026-05-01T05:32:16.429290+00:00",
+  "symbol": "BTC/USDT",
+  "starting_capital": 100.0,
+  "events": [
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:32:16.430725+00:00",
+      "action": "HOLD",
+      "price": 77000.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 100.0,
+      "metrics": {
+        "EMA(3)": "77001"
+      }
+    },
+    {
+      "type": "BUY",
+      "ts": "2026-05-01T05:32:16.431320+00:00",
+      "price": 77050.0,
+      "amount": 0.00013,
+      "trigger": "brain",
+      "metrics": {
+        "EMA(3)": "77050"
+      }
+    },
+    {
+      "type": "SELL",
+      "ts": "2026-05-01T05:32:17.432853+00:00",
+      "price": 77200.0,
+      "net_profit": 0.015,
+      "trigger": "take_profit",
+      "metrics": {
+        "EMA(3)": "77200"
+      }
+    },
+    {
+      "type": "TICK",
+      "ts": "2026-05-01T05:32:17.433818+00:00",
+      "action": "HOLD",
+      "price": 77210.0,
+      "position": "None",
+      "entry_price": null,
+      "pl_pct": null,
+      "working_capital": 100.015,
+      "metrics": {
+        "EMA(3)": "77210"
+      }
+    },
+    {
+      "type": "BUY",
+      "ts": "2026-05-01T05:32:17.444658+00:00",
+      "price": 77250.0,
+      "amount": 0.00013,
+      "trigger": "brain",
+      "metrics": {
+        "EMA(3)": "77250"
+      }
+    },
+    {
+      "type": "SELL",
+      "ts": "2026-05-01T05:32:18.445934+00:00",
+      "price": 77300.0,
+      "net_profit": 0.02,
+      "trigger": "brain",
+      "metrics": {}
+    }
+  ],
+  "trades": [
+    {
+      "trade_id": 1,
+      "brain": "Scalper Brain",
+      "symbol": "BTC/USDT",
+      "entry_ts": "2026-05-01T05:32:16.431346+00:00",
+      "entry_price": 77050.0,
+      "amount": 0.00013,
+      "entry_signal": "brain",
+      "entry_metrics": {
+        "EMA(3)": "77050"
+      },
+      "exit_ts": "2026-05-01T05:32:17.432885+00:00",
+      "exit_price": 77200.0,
+      "exit_signal": "take_profit",
+      "exit_metrics": {
+        "EMA(3)": "77200"
+      },
+      "hold_seconds": 1,
+      "gross_return": 0.0195,
+      "net_profit": 0.015,
+      "outcome": "WIN"
+    },
+    {
+      "trade_id": 2,
+      "brain": "Scalper Brain",
+      "symbol": "BTC/USDT",
+      "entry_ts": "2026-05-01T05:32:17.444672+00:00",
+      "entry_price": 77250.0,
+      "amount": 0.00013,
+      "entry_signal": "brain",
+      "entry_metrics": {
+        "EMA(3)": "77250"
+      },
+      "exit_ts": "2026-05-01T05:32:18.445961+00:00",
+      "exit_price": 77300.0,
+      "exit_signal": "brain",
+      "exit_metrics": {},
+      "hold_seconds": 1,
+      "gross_return": 0.0065,
+      "net_profit": 0.02,
+      "outcome": "WIN"
+    }
+  ],
+  "summary": {
+    "run_id": "20260501_053216_7ed212",
+    "brain": "Scalper Brain",
+    "start_time": "2026-05-01T05:32:16.429290+00:00",
+    "end_time": "2026-05-01T05:32:18.447020+00:00",
+    "total_trades": 2,
+    "wins": 2,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_net_pnl": 0.035,
+    "avg_hold_seconds": 1.0,
+    "total_events": 6
+  }
+}

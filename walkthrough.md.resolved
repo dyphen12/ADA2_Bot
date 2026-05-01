@@ -1,0 +1,90 @@
+# ADA 2 — Scalper Brain Implementation Walkthrough
+
+## Summary
+
+ADA has been transformed from a passive position trader into a **true scalper**. She now ticks every 5 seconds, enters and exits trades within minutes, and hunts for micro-opportunities using momentum detection, EMA crossovers, and RSI bounces.
+
+The entire brain architecture was made modular — all 4 brains are preserved and switchable live from the UI.
+
+## What Changed
+
+### New: Scalper Brain (`strategies/scalper_brain.py`)
+The centerpiece. A momentum micro-scalper with:
+- **5-second tick interval** (vs 30s before)
+- **0.15% stop-loss** / **0.25% take-profit** (vs 1%/1.5% before)
+- **Max 10-candle hold** — force-exits positions held too long
+- **3 entry signals**: EMA(3)/EMA(8) crossover, momentum burst, RSI(7) bounce
+- **2 exit signals**: EMA reversal, max hold timeout
+- Entry/exit logic in separate methods for easy future upgrades
+
+### New: Brain Profiles (Layered Config)
+Each brain can optionally declare a profile that overrides `.env` defaults:
+```
+Layer 1: .env defaults → SL=1%, TP=1.5%, tick=30s
+Layer 2: Brain profile → ScalperBrain overrides: SL=0.15%, TP=0.25%, tick=5s
+Layer 3: Circuit breaker → Hard 5% max loss, never changes
+```
+
+Brains that don't override (RSI Scalper, TransformerBrain, TFBrain) automatically use `.env` defaults.
+
+### Updated: Risk Manager
+Now operates in two layers:
+- **Tactical** — stop-loss/take-profit from active brain's profile
+- **Circuit Breaker** — hard 5% max loss that overrides everything, regardless of brain
+
+### Updated: Bot Core
+- Dynamic tick interval from brain profile
+- `switch_brain()` method for hot-swapping
+- Running trade statistics: trades today, win rate, avg hold time
+
+### Updated: API
+- `GET /api/brains` — lists all available brains with profiles
+- `POST /api/switch_brain` — hot-swaps ADA's brain
+- Brain registry in `main.py` — add new brains by adding one line
+
+### Updated: Dashboard UI
+- **Brain selector dropdown** — switch brains live from the UI
+- **Brain profile display** — shows active tick speed, SL%, TP%
+- **Trade stats badges** — Trades count, Win Rate, Avg Hold time
+- **Dynamic metrics panel** — auto-adapts to whichever brain is active (EMA/RSI for scalper, MACD/SMA for RSI scalper, AI Confidence for TF brains)
+
+## Live Test Results
+
+ADA was started with the Scalper Brain and **immediately began trading**:
+
+```
+Starting ADA 2 Bot with Brain: Scalper Brain (Momentum Micro)
+Bot loop started. Ticking every 5 seconds.
+TAKE PROFIT HIT! P/L: 0.724% (target: +0.25%)
+SELL executed at 77053.75. Net Profit: 0.0520 USDT
+THESIS: Trade Won! +$0.0520 deposited to Claimable Vault.
+...
+BUY executed at 77063.86. Stored Amount: 0.00011988
+```
+
+She closed a winning trade on her first tick and entered a new position ~3 minutes later. **This is scalping behavior.**
+
+![ADA Scalper Dashboard](C:/Users/PC/.gemini/antigravity/brain/a8a9dbd2-9511-4df5-a7d4-b95058c81622/scalper_dashboard.png)
+
+## Files Modified
+
+| File | Change |
+|------|--------|
+| [base_strategy.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/strategies/base_strategy.py) | Added `get_profile()` with layered defaults |
+| [scalper_brain.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/strategies/scalper_brain.py) | **NEW** — Momentum micro-scalper |
+| [config.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/core/config.py) | Added circuit breaker, default brain, tick interval |
+| [.env](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/.env) | Added circuit breaker + brain config |
+| [risk_manager.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/execution/risk_manager.py) | Two-layer system: tactical + circuit breaker |
+| [bot.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/core/bot.py) | Brain switching, dynamic tick, trade stats |
+| [main.py](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/main.py) | Brain registry + switch/list API endpoints |
+| [index.html](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/web/index.html) | Brain selector dropdown + dynamic metrics panel |
+| [app.js](file:///d:/Users/PC/Documents/Tensoreal/ADA2/ADA2_Bot/web/app.js) | Brain switching UI + dynamic metrics rendering |
+
+## Next Steps for Improving the Scalper
+The ScalperBrain was intentionally designed for iteration. Each entry/exit signal is a separate method:
+- `_check_ema_crossover()` — upgrade with different EMA periods
+- `_check_momentum_burst()` — tune the threshold
+- `_check_rsi_bounce()` — try different RSI periods or thresholds
+- `_check_ema_reversal()` — add trailing stop logic
+- `_check_max_hold()` — make dynamic based on market conditions
+- Add new signals by creating new `_check_*` methods

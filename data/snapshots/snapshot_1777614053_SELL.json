@@ -1,0 +1,13 @@
+{
+    "time": 1777614053,
+    "side": "SELL",
+    "price": 77100.0,
+    "metrics": {
+        "EMA(3)": "77094.80",
+        "EMA(8)": "77090.72",
+        "EMA Spread": "+0.0053% \u2191",
+        "RSI(7)": "56.4",
+        "Candles Held": "10",
+        "Internal Monologue": "Max hold time reached (10 candles) \u2014 force exit"
+    }
+}
